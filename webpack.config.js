@@ -1,8 +1,9 @@
 const path = require("path");
 const config = {
-    enrty: __path +'/src/index.js',
-    output: [
-
-    ]
+    enrty: path.__dir__ +'/src/index.js',
+    output: {
+        path: ,
+        filename: "bundle.js"
+    }
 };
 module.exports = config;
