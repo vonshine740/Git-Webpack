@@ -1,3 +1,8 @@
+exports.ids = [1,2];
+exports.modules = [
+/* 0 */
+/***/ (function(module, exports) {
+
 function Hello ( msg ) {
     console.log( 'Hello '+ msg + '!' );
 }
@@ -8,3 +13,6 @@ Hello.prototype.apply = function(complier){
     })
 }
 module.exports = Hello;
+
+/***/ })
+];;

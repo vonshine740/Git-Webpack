@@ -1,3 +1,7 @@
+webpackJsonp([1,2],[
+/* 0 */
+/***/ (function(module, exports) {
+
 function Hello ( msg ) {
     console.log( 'Hello '+ msg + '!' );
 }
@@ -8,3 +12,6 @@ Hello.prototype.apply = function(complier){
     })
 }
 module.exports = Hello;
+
+/***/ })
+],[0]);
